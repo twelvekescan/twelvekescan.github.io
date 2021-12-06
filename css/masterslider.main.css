@@ -51,7 +51,7 @@
 .ms-slide .ms-slide-loading {
 	width: 36px;
 	height: 36px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/loading-2.gif) no-repeat center white;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif) no-repeat center white;
 	border-radius: 60px;
 	box-shadow: 0px 0px 3px rgba(0,0,0,0.2);
 	position: absolute;
@@ -64,8 +64,8 @@
 
 /* grab cursor */
 .ms-def-cursor{cursor:auto !important;}
-.ms-grab-cursor{cursor: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/grab.png), move;}
-.ms-grabbing-cursor{cursor: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/grabbing.png), move;}
+.ms-grab-cursor{cursor: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/grab.png), move;}
+.ms-grabbing-cursor{cursor: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/grabbing.png), move;}
 .ms-ie .ms-grab-cursor{cursor: move;}
 .ms-ie .ms-grabbing-cursor {cursor: move;}
 
@@ -293,7 +293,7 @@
     font-family: sans-serif;
     font-size: 0.75em;
     display: inline-block;
-    background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/video-close-btn.png) no-repeat 0px 3px;
+    background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/video-close-btn.png) no-repeat 0px 3px;
     padding-left: 15px;
     height: 15px;
     color: #DBDBDB;
@@ -568,7 +568,7 @@
 .ms-skin-default .ms-video-btn{
 	width: 50px;
 	height: 51px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-1.png) no-repeat -14px -150px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-1.png) no-repeat -14px -150px;
 	top: 50%;
 	left: 50%;
 	margin: -25px 0 0 -25px;
@@ -577,7 +577,7 @@
 .ms-skin-default .ms-slide .ms-slide-vcbtn {
 	width: 30px;
 	height: 30px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-1.png) no-repeat -24px -28px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-1.png) no-repeat -24px -28px;
 	top: 18px;
 	right: 30px;
 }
@@ -587,7 +587,7 @@
 .ms-skin-default .ms-nav-next,
 .ms-skin-default .ms-nav-prev {
 	width: 30px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-1.png);
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-1.png);
 	background-position: -89px -26px;
 	height: 40px;
 	cursor: pointer;
@@ -608,7 +608,7 @@
 .ms-skin-default .ms-bullet {
 	width: 10px;
 	height: 10px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-1.png) no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-1.png) no-repeat;
 	margin: 4px;
 	background-position: -34px -117px;
 }
@@ -723,7 +723,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-default .ms-nav-next,
 	.ms-skin-default .ms-nav-prev,
 	.ms-skin-default .ms-bullet{
-		background-image:url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-1-retina.png);
+		background-image:url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-1-retina.png);
 		background-size: 152px 225px;
 	}
 	
@@ -739,7 +739,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-black-1 .ms-video-btn{
 	width: 54px;
 	height: 54px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/black-skin-1.png) no-repeat -14px -150px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/black-skin-1.png) no-repeat -14px -150px;
 	top: 50%;
 	left: 50%;
 	margin: -27px 0 0 -27px;
@@ -748,7 +748,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-black-1 .ms-slide .ms-slide-vcbtn {
 	width: 27px;
 	height: 26px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/black-skin-1.png) no-repeat -24px -29px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/black-skin-1.png) no-repeat -24px -29px;
 	top: 30px;
 	right: 30px;
 }
@@ -758,7 +758,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-black-1 .ms-nav-next,
 .ms-skin-black-1 .ms-nav-prev {
 	width: 53px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/black-skin-1.png);
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/black-skin-1.png);
 	background-position: -79px -19px;
 	height: 61px;
 	cursor: pointer;
@@ -904,7 +904,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-black-1 .ms-slide .ms-slide-vcbtn,
 	.ms-skin-black-1 .ms-nav-next,
 	.ms-skin-black-1 .ms-nav-prev{
-		background-image:url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/black-skin-1-retina.png);
+		background-image:url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/black-skin-1-retina.png);
 		background-size: 152px 225px;
 	}
 	
@@ -920,7 +920,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-black-2 .ms-video-btn{
 	width: 45px;
 	height: 45px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/black-skin-2.png) black no-repeat -16px -103px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/black-skin-2.png) black no-repeat -16px -103px;
 	border: solid 3px rgb(255, 255, 255);  
 	border-color: rgba(255, 255, 255, 0.4);
 	-webkit-background-clip: padding-box;
@@ -937,7 +937,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-black-2 .ms-slide .ms-slide-vcbtn {
 	width: 25px;
 	height: 25px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/black-skin-2.png) black no-repeat -27px -36px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/black-skin-2.png) black no-repeat -27px -36px;
 	border: solid 2px white;
 	border-color: rgba(255, 255, 255, 0.4);
 	top: 15px;
@@ -958,7 +958,7 @@ only screen and (                min-resolution: 2dppx) {
 	z-index: 110;
 	width: 45px;
 	height: 45px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/black-skin-2.png) black;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/black-skin-2.png) black;
 	background-clip: padding-box;
 	background-position: -88px -26px;
 	border: solid 3px rgb(255, 255, 255);
@@ -1132,7 +1132,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-black-2 .ms-slide .ms-slide-vcbtn,
 	.ms-skin-black-2 .ms-nav-next,
 	.ms-skin-black-2 .ms-nav-prev{
-		background-image:url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/black-skin-2-retina.png);
+		background-image:url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/black-skin-2-retina.png);
 		background-size: 152px 225px;
 	}
 	
@@ -1148,7 +1148,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-2 .ms-video-btn{
 	width: 54px;
 	height: 54px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-2.png) no-repeat -14px -150px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-2.png) no-repeat -14px -150px;
 	top: 50%;
 	left: 50%;
 	margin: -27px 0 0 -27px;
@@ -1157,7 +1157,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-2 .ms-slide .ms-slide-vcbtn {
 	width: 27px;
 	height: 26px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-2.png) no-repeat -24px -29px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-2.png) no-repeat -24px -29px;
 	top: 30px;
 	right: 30px;
 }
@@ -1167,7 +1167,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-2 .ms-nav-next,
 .ms-skin-light-2 .ms-nav-prev {
 	width: 53px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-2.png);
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-2.png);
 	background-position: -79px -19px;
 	height: 61px;
 	cursor: pointer;
@@ -1312,7 +1312,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-light-2 .ms-slide .ms-slide-vcbtn,
 	.ms-skin-light-2 .ms-nav-next,
 	.ms-skin-light-2 .ms-nav-prev{
-		background-image:url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-2-retina.png);
+		background-image:url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-2-retina.png);
 		background-size: 152px 225px;
 	}
 	
@@ -1329,7 +1329,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-3 .ms-video-btn{
 	width: 50px;
 	height: 50px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-3.png) no-repeat -15px -149px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-3.png) no-repeat -15px -149px;
 	top: 50%;
 	left: 50%;
 	margin: -25px 0 0 -25px;
@@ -1338,7 +1338,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-3 .ms-slide .ms-slide-vcbtn {
 	width: 31px;
 	height: 29px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-3.png) no-repeat -26px -28px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-3.png) no-repeat -26px -28px;
 	top: 30px;
 	right: 30px;
 }
@@ -1348,7 +1348,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-3 .ms-nav-next,
 .ms-skin-light-3 .ms-nav-prev {
 	width: 50px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-3.png);
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-3.png);
 	background-position: -82px -22px;
 	height: 50px;
 	cursor: pointer;
@@ -1379,7 +1379,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-3 .ms-bullet {
 	width: 16px;
 	height: 16px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-3.png) no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-3.png) no-repeat;
 	background-position: -31px -114px;
 	margin: 4px;
 }
@@ -1494,7 +1494,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-light-3 .ms-nav-next,
 	.ms-skin-light-3 .ms-nav-prev,
 	.ms-skin-light-3 .ms-bullet{
-		background-image:url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-3-retina.png);
+		background-image:url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-3-retina.png);
 		background-size: 152px 225px;
 	}
 	
@@ -1511,7 +1511,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-4 .ms-video-btn{
 	width: 54px;
 	height: 54px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-4.png) no-repeat -14px -150px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-4.png) no-repeat -14px -150px;
 	top: 50%;
 	left: 50%;
 	margin: -27px 0 0 -27px;
@@ -1520,7 +1520,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-4 .ms-slide .ms-slide-vcbtn {
 	width: 27px;
 	height: 26px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-4.png) no-repeat -24px -29px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-4.png) no-repeat -24px -29px;
 	top: 30px;
 	right: 30px;
 }
@@ -1530,7 +1530,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-4 .ms-nav-next,
 .ms-skin-light-4 .ms-nav-prev {
 	width: 54px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-4.png);
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-4.png);
 	background-position: -77px -5px;
 	height: 68px;
 	cursor: pointer;
@@ -1701,7 +1701,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-light-4 .ms-slide .ms-slide-vcbtn,
 	.ms-skin-light-4 .ms-nav-next,
 	.ms-skin-light-4 .ms-nav-prev{
-		background-image:url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-4-retina.png);
+		background-image:url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-4-retina.png);
 		background-size: 152px 225px;
 	}
 	
@@ -1718,7 +1718,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-5 .ms-video-btn{
 	width: 32px;
 	height: 32px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-5.png) black no-repeat -24px -160px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-5.png) black no-repeat -24px -160px;
 	top: 50%;
 	left: 50%;
 	margin: -18px 0 0 -18px;
@@ -1732,7 +1732,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-5 .ms-slide .ms-slide-vcbtn {
 	width: 30px;
 	height: 30px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-5.png) white no-repeat -24px -28px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-5.png) white no-repeat -24px -28px;
 	top: 18px;
 	right: 30px;
 }
@@ -1742,7 +1742,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-5 .ms-nav-next,
 .ms-skin-light-5 .ms-nav-prev {
 	width: 32px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-5.png) white;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-5.png) white;
 	background-position: -94px -32px;
 	height: 32px;
 	cursor: pointer;
@@ -1778,7 +1778,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-5 .ms-bullet {
 	width: 10px;
 	height: 10px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-5.png) no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-5.png) no-repeat;
 	margin: 4px;
 	background-position: -34px -117px;
 }
@@ -1905,7 +1905,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-light-5 .ms-slide .ms-slide-vcbtn,
 	.ms-skin-light-5 .ms-nav-next,
 	.ms-skin-light-5 .ms-nav-prev{
-		background-image:url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-5-retina.png);
+		background-image:url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-5-retina.png);
 		background-size: 152px 225px;
 	}
 	
@@ -1922,7 +1922,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-6 .ms-video-btn{
 	width: 45px;
 	height: 45px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-6.png) white no-repeat -16px -103px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-6.png) white no-repeat -16px -103px;
 	border: solid 3px rgb(112, 112, 112);  border-color: rgba(0, 0, 0, 0.27);
 	-webkit-background-clip: padding-box;
 	top: 50%;
@@ -1938,7 +1938,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-6 .ms-slide .ms-slide-vcbtn {
 	width: 25px;
 	height: 25px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-6.png) white no-repeat -27px -36px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-6.png) white no-repeat -27px -36px;
 	top: 15px;
 	right: 15px;
 }
@@ -1957,7 +1957,7 @@ only screen and (                min-resolution: 2dppx) {
 	z-index: 110;
 	width: 45px;
 	height: 45px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-6.png) white;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-6.png) white;
 	background-clip: padding-box;
 	background-position: -88px -26px;
 	border: solid 3px rgb(112, 112, 112);
@@ -2129,7 +2129,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-light-6 .ms-slide .ms-slide-vcbtn,
 	.ms-skin-light-6 .ms-nav-next,
 	.ms-skin-light-6 .ms-nav-prev{
-		background-image:url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/light-skin-6-retina.png);
+		background-image:url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/light-skin-6-retina.png);
 		background-size: 152px 225px;
 	}
 	
@@ -2146,7 +2146,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-metro .ms-video-btn{
 	width: 47px;
 	height: 46px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/metro-skin.png) no-repeat -16px -152px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/metro-skin.png) no-repeat -16px -152px;
 	top: 50%;
 	left: 50%;
 	margin: -22px 0 0 -24px;
@@ -2155,7 +2155,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-metro .ms-slide .ms-slide-vcbtn {
 	width: 47px;
 	height: 47px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/metro-skin.png) no-repeat -16px -19px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/metro-skin.png) no-repeat -16px -19px;
 	top: 15px;
 	right: 15px;
 }
@@ -2165,7 +2165,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-metro .ms-nav-next,
 .ms-skin-metro .ms-nav-prev {
 	width: 47px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/metro-skin.png);
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/metro-skin.png);
 	background-position: -83px -23px;
 	height: 47px;
 	cursor: pointer;
@@ -2196,7 +2196,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-metro .ms-bullet {
 	width: 16px;
 	height: 16px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/metro-skin.png) no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/metro-skin.png) no-repeat;
 	background-position: -31px -114px;
 	margin: 4px;
 }
@@ -2311,7 +2311,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-metro .ms-nav-next,
 	.ms-skin-metro .ms-nav-prev,
 	.ms-skin-metro .ms-bullet{
-		background-image:url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/metro-skin-retina.png);
+		background-image:url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/metro-skin-retina.png);
 		background-size: 152px 225px;
 	}
 	
@@ -2327,7 +2327,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-contrast .ms-video-btn{
 	width: 60px;
 	height: 60px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/contrast-skin.png) no-repeat -10px -144px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/contrast-skin.png) no-repeat -10px -144px;
 	top: 50%;
 	left: 50%;
 	margin: -30px 0 0 -30px;
@@ -2336,7 +2336,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-contrast .ms-slide .ms-slide-vcbtn {
 	width: 24px;
 	height: 24px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/contrast-skin.png) no-repeat -27px -30px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/contrast-skin.png) no-repeat -27px -30px;
 	top: 30px;
 	right: 30px;
 }
@@ -2346,7 +2346,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-contrast .ms-nav-next,
 .ms-skin-contrast .ms-nav-prev {
 	width: 60px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/contrast-skin.png);
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/contrast-skin.png);
 	background-position: -76px -17px;
 	height: 60px;
 	cursor: pointer;
@@ -2377,7 +2377,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-contrast .ms-bullet {
 	width: 16px;
 	height: 16px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/contrast-skin.png) no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/contrast-skin.png) no-repeat;
 	background-position: -31px -114px;
 	margin: 4px;
 }
@@ -2493,7 +2493,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-contrast .ms-nav-next,
 	.ms-skin-contrast .ms-nav-prev,
 	.ms-skin-contrast .ms-bullet{
-		background-image:url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/contrast-skin-retina.png);
+		background-image:url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/contrast-skin-retina.png);
 		background-size: 152px 225px;
 	}
 	
@@ -2535,7 +2535,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .ms-display-template .ms-nav-prev,
 .ms-display-template .ms-nav-next {
-    background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/device-skin.png) no-repeat -11px -9px;
+    background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/device-skin.png) no-repeat -11px -9px;
     width: 35px;
     height: 40px;
     left: -80px;
@@ -2565,7 +2565,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-display-template .ms-bullet {
 	width: 10px;
 	height: 10px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/device-skin.png) no-repeat -112px -25px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/device-skin.png) no-repeat -112px -25px;
 	margin: 4px;
 }
 
@@ -2588,10 +2588,10 @@ only screen and (                min-resolution: 2dppx) {
 	height: 100%;
 	float: left;
 	cursor: pointer;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/gallery-btns.png) no-repeat 6px 6px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/gallery-btns.png) no-repeat 6px 6px;
 }
 .ms-gallery-template .ms-gal-playbtn.btn-pause {
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/gallery-btns.png) no-repeat -55px 7px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/gallery-btns.png) no-repeat -55px 7px;
 }
 
 .ms-gallery-template .ms-gal-thumbtoggle {
@@ -2601,10 +2601,10 @@ only screen and (                min-resolution: 2dppx) {
 	width: 55px;
 	height: 100%;
 	cursor: pointer;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/gallery-btns.png) no-repeat -53px -41px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/gallery-btns.png) no-repeat -53px -41px;
 }
 .ms-gallery-template .ms-gal-thumbtoggle.btn-hide {
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/gallery-btns.png) no-repeat 4px -41px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/gallery-btns.png) no-repeat 4px -41px;
 }
 
 .ms-gallery-template .ms-slide-num {
@@ -2715,7 +2715,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .ms-laptop-template .ms-nav-prev,
 .ms-laptop-template .ms-nav-next {
-    background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/device-skin.png) no-repeat -11px -9px;
+    background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/device-skin.png) no-repeat -11px -9px;
     width: 35px;
     height: 40px;
     left: -80px;
@@ -2745,7 +2745,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-laptop-template .ms-bullet {
 	width: 10px;
 	height: 10px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/device-skin.png) no-repeat -112px -25px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/device-skin.png) no-repeat -112px -25px;
 	margin: 4px;
 }
 
@@ -2784,7 +2784,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .ms-tablet-template .ms-nav-prev,
 .ms-tablet-template .ms-nav-next {
-    background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/device-skin.png) no-repeat -11px -9px;
+    background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/device-skin.png) no-repeat -11px -9px;
     width: 35px;
     height: 40px;
     left: -120px;
@@ -2814,7 +2814,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-tablet-template .ms-bullet {
 	width: 10px;
 	height: 10px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/device-skin.png) no-repeat -112px -25px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/device-skin.png) no-repeat -112px -25px;
 	margin: 4px;
 }
 
@@ -2854,7 +2854,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .ms-phone-template .ms-nav-prev,
 .ms-phone-template .ms-nav-next {
-    background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/device-skin.png) no-repeat -11px -9px;
+    background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/device-skin.png) no-repeat -11px -9px;
     width: 35px;
     height: 40px;
     left: -120px;
@@ -2884,7 +2884,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-phone-template .ms-bullet {
 	width: 10px;
 	height: 10px;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/device-skin.png) no-repeat -112px -25px;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/device-skin.png) no-repeat -112px -25px;
 	margin: 4px;
 }
 
@@ -2951,7 +2951,7 @@ only screen and (                min-resolution: 2dppx) {
 
 .ms-staff-carousel .ms-nav-prev,
 .ms-staff-carousel .ms-nav-next {
-    background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/staff-arrows.png) white no-repeat -7px -57px;
+    background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/staff-arrows.png) white no-repeat -7px -57px;
     width: 35px;
     height: 40px;
     left: -35px;
@@ -3033,7 +3033,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-vertical-template .ms-nav-next {
     top: 10px;
     left: 50%;
-    background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/vertical-arrows.png) no-repeat;
+    background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/vertical-arrows.png) no-repeat;
     background-position: -11px -6px;
     width: 40px;
     height: 30px;
@@ -3054,7 +3054,7 @@ only screen and (                min-resolution: 2dppx) {
 	top: 0;
 	height: 15px;
 	cursor: pointer;
-	background: url(https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/vertical-arrows.png) no-repeat;
+	background: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/vertical-arrows.png) no-repeat;
 	
     background-position: 50% -106px;
 }

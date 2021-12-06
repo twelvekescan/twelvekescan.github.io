@@ -107,7 +107,7 @@ $(function () {
           $('.playvideo').find("source").remove();
           $('.playvideo').attr("src", '');
           $('#play').hide();
-          $('.play_btn').attr('data-src', 'https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/videos/videos.mp4');
+          $('.play_btn').attr('data-src', 'https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/videos/videos.mp4');
         }
 
         if(nextIndex == 4){
