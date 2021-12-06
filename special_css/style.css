@@ -367,6 +367,11 @@ body {
   text-align: center;
   line-height: 30px;
 }
+.play_btn_en::before{
+  content: 'Video Introduction'!important;
+  text-align: center;
+  line-height: 30px;
+}
 .play_btn::after{
   content: "";
   width: 8px;
@@ -379,7 +384,7 @@ body {
   right: 52px;
   top: 12px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .item-4 .fp-tableCell{
     padding-top: 0!important;
   }

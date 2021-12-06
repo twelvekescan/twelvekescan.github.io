@@ -43,7 +43,8 @@
         font-size: 13px;
     }
     .item-6 h1{
-        margin-bottom: 20px;
+        margin-top: 0;
+        margin-bottom: 40px;
     }
 }
 .item-6 .word p i{

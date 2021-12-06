@@ -36,6 +36,7 @@
     transition: 1s all ease;
 }
 
+
 .navbar-default .navbar-toggle{
     background: rgba(0,0,0,0)!important;
     border: 0!important;
@@ -43,15 +44,102 @@
 .navbar-default .navbar-toggle .icon-bar{
     background: #fff!important;
 }
+.language{
+    height: 50px;
+    position: relative;
+    display: flex!important;
+    align-items: center;
+}
+.language>.checked{
+    display: block;
+    height: 20px;
+    line-height: 18px;
+    color: #eee;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255,.05);
+    box-sizing: border-box;
+    font-size: 13px;
+    width: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+.language>.checked>.arrow{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #eee;
+    right: -13px;
+    top: 50%;
+    margin-top: -5px;
+    transition: all .3s;
+}
+.check-lang{
+    position: absolute;
+    top: 42px;
+    right: -13px;
+    width: 80px;
+    height: auto;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+    box-shadow: 0 0 12px rgba(255, 255, 255,.05);
+    padding: 5px;
+    box-sizing: border-box;
+    transition: all .3s;
+    transform: scale(0);
+}
+.check-lang>span{
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    cursor: pointer;
+}
+.check-lang>span:hover{
+    color: skyblue;
+}
+.tel, .tel:focus{
+    text-decoration: none;
+    color: #fff;
+}
+.tel:hover{
+    text-decoration: underline;
+    color: skyblue;
+}
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px){
+    .navbar-nav > li > a> span.en-skill{
+        display: inline-block;
+        width: 100px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        word-break: break-all;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .navbar-collapse{
         border: 0!important;
+    }
+    .en-title{
+        display: none;
+    }
+    .navbar-nav > li > a> span.en-skill{
+        width: 73px!important;
+    }
+    .language{
+        display: none!important;
+    }
+}
+@media screen and (max-width: 640px) {
+    .navbar-nav > li > a> span.en-skill{
+        width: auto!important;
     }
 }
 
 .navbar.blue {
-    background: linear-gradient(-90deg, #29bdd9 0%, #276ace 100%);
+    background: linear-gradient(-90deg, #3bd3f1 0%, #5897f7 100%);
 }
 .navbar.black {
     background: rgba(51, 51, 51,.7);

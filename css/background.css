@@ -28,8 +28,8 @@
   height: 100%;
   left: 0;
   top: 0;
-  background: rgba(0,0,0,.7);
-  z-index: 13;
+  background: rgba(0,0,0,.6);
+  z-index: 111;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,6 +38,7 @@
   width: 854px;
   height: 480px;
   position: relative;
+  background: #000;
 }
 #play>.center>.close{
   background: #fff;
@@ -47,16 +48,16 @@
   border-radius: 50%;
   right: -18px;
   top: -18px;
-  z-index: 14;
+  z-index: 200;
 }
 #play>.center>.close>img{
   width: 30px;
   height: auto;
+  color: #fff;
 }
 @media only screen and (max-width: 767px){
   #play{
-    background: rgba(0,0,0,.9);
-    z-index: 101;
+    background: rgba(0,0,0,.8);
   }
 }
 

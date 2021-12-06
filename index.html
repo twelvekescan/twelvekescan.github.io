@@ -1,12 +1,14 @@
 <!doctype html>
 <html lang="en">
-    <!-- https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/ -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <title>十二客 | 创享文化未来，传播价值精彩</title>
+    <meta name="keywords" content="twelve guest home,hotel,culture,travel" />
+	<meta name="description" content="Twelve Guest Home is registered in Canada as federal incorporation. It is the wholly-owned subsidiary of Sichuan Twelve Guest Culture Creative Co., Ltd. in China. Twelve Guest Home will rely on the investment made by Sichuan Twelve Guest Culture Creative Co., Ltd. to initiate operations without loans from financial institutions." />
+	<meta name="description" content="Twelve Guest Home will mainly provide accommodation services like Airbnb, but with the more expanded area. The company will approach individual landlords and property management companies to rent their properties to local residents and foreign travellers. " />
 	<meta name="keywords" content="十二客,shierke,twelveke,文化活动,创意,四川,文创,商务服务,艺术交流,会议展览,设计,制作,代理,发布广告,酒店,民宿,商务,销售酒店用品,农产品" />
-	<meta name="description" content="四川十二客文化创意有限公司，诚接商务服务、创意服务、组织策划文化艺术交流活动、会议及展览展示服务，设计、制作、代理、发布国内广告(除网络广告发布)，市场营销策划，酒店管理；住宿；餐饮管理；民宿服务；销售：酒店用品、日用品、农副产品、预包装食品及散装食品。" />
+    <meta name="description" content="四川十二客文化创意有限公司，诚接商务服务、创意服务、组织策划文化艺术交流活动、会议及展览展示服务，设计、制作、代理、发布国内广告(除网络广告发布)，市场营销策划，酒店管理；住宿；餐饮管理；民宿服务；销售：酒店用品、日用品、农副产品、预包装食品及散装食品。" />
     <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/favicon.ico">
     <!--lib css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/lib/bootstrap/css/bootstrap.css"/>
@@ -134,22 +136,29 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" id="menu">
                 <li data-menuanchor="page1" class="active">
-                    <a href="#page1">首页</a>
+                    <a href="#page1"><span class="ch-skill">首页</span><span class="en-skill">Home</span></a>
                 </li>
                 <li data-menuanchor="page2">
-                    <a href="#page2">公司概况</a>
+                    <a href="#page2"><span class="ch-skill">公司概况</span><span class="en-skill">Company Profile</span></a>
                 </li>
                 <li data-menuanchor="page3">
-                    <a href="#page3">主营业务</a>
+                    <a href="#page3"><span class="ch-skill">主营业务</span><span class="en-skill">Main Business</span></a>
                 </li>
                 <li data-menuanchor="page4">
-                    <a href="#page4">小馆特色</a>
+                    <a href="#page4"><span class="ch-skill">小馆特色</span><span class="en-skill">Hotel Features</span></a>
                 </li>
                 <li data-menuanchor="page5">
-                    <a href="#page5">产品展示</a>
+                    <a href="#page5"><span class="ch-skill">产品展示</span><span class="en-skill">Product Display</span></a>
                 </li>
                 <li data-menuanchor="page6">
-                    <a href="#page6">联系方式</a>
+                    <a href="#page6"><span class="ch-skill">联系方式</span><span class="en-skill">Contact Us</span></a>
+                </li>
+                <li class="language">
+                    <span class="checked"  onclick="toggle()"><span class="name">中文</span><i class="arrow"></i></span>
+                    <div class="check-lang">
+                        <span onclick="changeLang('ch')">简体中文</span>
+                        <span onclick="changeLang('en')">English</span>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -185,7 +194,10 @@
         </div>
         <div class="row word">
             <span class="resume-hide"><img src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/img/logo.png" /></span>
-            <p class="motto resume-hide hinge-sty" style="position: relative">创享文化未来，传播价值精彩</p>
+            <p class="motto resume-hide hinge-sty" style="position: relative">
+                <span class="ch-skill">创享文化未来，传播价值精彩</span>
+                <span class="en-skill">Create and enjoy the cultural future <br/>and spread wonderful values</span>
+            </p>
             <a href="#" class="next-page ">
                 <span class="glyphicon glyphicon-chevron-down"></span>
             </a>
@@ -208,36 +220,52 @@
     <div class="section item-2">
         <div class="item2-background"></div>
         <div class="container">
-            <h class='hidden-xs hidden-sm page2-title'>公司概况</h>
+            <h1 class='hidden-xs hidden-sm page2-title ch-skill'>公司概况</h1>
+            <h1 class='hidden-xs hidden-sm page2-title en-skill'>COMPANY PROFILE</h1>
             <div class="row">
                 <div class=" icon-infomation col-xs-12 col-sm-6 col-md-6">
                     <img src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-2/glass.png" alt="">
-                    <h4>基本信息</h4>
-                    <p>
+                    <h4 class="ch-skill">基本信息</h4>
+                    <h4 class="en-skill">Essential Information</h4>
+                    <p class="ch-skill">
                         四川十二客文化创意有限公司作为一家专业商业服务机构，集文化艺术交流活动创意策划、会议及展览展示设计、市场营销策划、民宿短租服务、酒店管理等多领域综合服务于一体，致力于打造高端精品商务文化名片，提供新颖生动的活动形式，精准满足客户需求。自2019年7月成立以来，已策划承办多场文化交流活动、商务接待活动等，服务周到现场效果优良，为客户开拓商业新蓝图提供有力臂助。
+                    </p>
+                    <p class="en-skill">
+                        Twelve Guest Home is registered in Canada as federal incorporation. It is the wholly-owned subsidiary of Sichuan Twelve Guest Culture Creative Co., Ltd. in China. Twelve Guest Home will rely on the investment made by Sichuan Twelve Guest Culture Creative Co., Ltd. to initiate operations without loans from financial institutions.
                     </p>
                 </div>
                 <div class=" icon-infomation col-xs-12 col-sm-6 col-md-6">
                     <img src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-2/book.png" alt="">
-                    <h4>行业类型</h4>
-                    <p>
+                    <h4 class="ch-skill">行业类型</h4>
+                    <h4 class="en-skill">Industry Type</h4>
+                    <p class="ch-skill">
                         商务服务业，有限责任公司(自然人独资)
+                    </p>
+                    <p class="en-skill">
+                        Business service industry, limited liability company (sole proprietorship of natural person).
+                        The initial investment amount will be CAD 50,000, and the parent company will continue to invest if needed
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class=" icon-infomation col-xs-12 col-sm-6 col-md-6">
                     <img src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-2/tel.png" alt="">
-                    <h4>花花小馆地址</h4>
-                    <p>
+                    <h4 class="ch-skill">花花小馆地址</h4>
+                    <h4 class="en-skill">Hotel Address</h4>
+                    <p class="ch-skill">
                         四川省成都市武侯区金雁路404号皇家别墅兰苑C4
+                    </p>
+                    <p class="en-skill">
+                        China：C4, Royal Villa Lanyuan, No. 404, Jinyan Road, Wuhou District, Chengdu, Sichuan</br>
+                        Canada：-
                     </p>
                 </div>
                 <div class=" icon-infomation col-xs-12 col-sm-6 col-md-6">
                     <img src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-2/hat.png" alt="">
-                    <h4>经营范围</h4>
-                    <p>创意服务；组织策划文化艺术交流活动；会议及展览展示服务，设计、制作、代理、发布国内广告(除网络广告发布)，市场营销策划，酒店管理；住宿；餐饮管理；民宿服务；销售：酒店用品、日用品、农副产品、预包装及散装食品。</p>
-
+                    <h4 class="ch-skill">经营范围</h4>
+                    <h4 class="en-skill">Scope of Services</h4>
+                    <p class="ch-skill">创意服务；组织策划文化艺术交流活动；会议及展览展示服务，设计、制作、代理、发布国内广告(除网络广告发布)，市场营销策划，酒店管理；住宿；餐饮管理；民宿服务；销售：酒店用品、日用品、农副产品、预包装及散装食品。</p>
+                    <p class="en-skill">Twelve Guest Home will mainly provide accommodation services like Airbnb, but with the more expanded area. The company will approach individual landlords and property management companies to rent their properties to local residents and foreign travellers. </p>
                 </div>
             </div>
 
@@ -255,55 +283,131 @@
                 <img src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/Chart.png" alt="">
             </div>
             <div class="skill-introduce">
-                <div class="media">
-                    <div class="media-left media-top">
-                        <a href="#" class=''>
-                            <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/tv8.png" alt="">
-                        </a>
+                <div class="ch-skill">
+                    <div class="media">
+                        <div class="media-left media-top">
+                            <a href="#" class=''>
+                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/tv8.png" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">组织架构</h4>
+                            <p><img class="organizational" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/zuzhi.jpeg" alt=""></p>
+                        </div>
                     </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">组织架构</h4>
-                        <p><img class="organizational" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/zuzhi.jpeg" alt=""></p>
+                    <div class="media ">
+                        <div class="media-left media-top">
+                            <a href="#" class=''>
+                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/apple6.png" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">酒店民宿服务</h4>
+                            <p>1.市场营销策划，酒店管理<br/>2.住宿；餐饮管理；民宿服务<br/>3.销售：酒店用品、日用品、农副产品、预包装食品及散装食品
+                            </p>
+    
+                        </div>
+                    </div>
+                    <div class="media ">
+                        <div class="media-left media-top">
+                            <a href="#" class=''>
+                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/baterry10.png" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">创意服务</h4>
+                            <p>1.创意服务；组织策划文化艺术交流活动<br/>2.会议及展览展示服务<br/>3.设计、制作、代理、发布国内广告(除网络广告发布)
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="media ">
-                    <div class="media-left media-top">
-                        <a href="#" class=''>
-                            <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/apple6.png" alt="">
-                        </a>
+                <!-- English -->
+                <div class="en-skill">
+                    <div class="media en-title">
+                        <h2>Depending on the needs of the customers, Twelve Guest Home will also provide the following:</h2>
                     </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">酒店民宿服务</h4>
-                        <p>1.市场营销策划，酒店管理<br/>2.住宿；餐饮管理；民宿服务<br/>3.销售：酒店用品、日用品、农副产品、预包装食品及散装食品
-                        </p>
-
+                    <div class="media ">
+                        <div class="media-left media-top">
+                            <a href="#" class=''>
+                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/tv8.png" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Decorating Service</h4>
+                            <p>Decorate the renting properties with different styles and seasonal themes to increase rental prices.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="media ">
-                    <div class="media-left media-top">
-                        <a href="#" class=''>
-                            <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/baterry10.png" alt="">
-                        </a>
+                    <div class="media ">
+                        <div class="media-left media-top">
+                            <a href="#" class=''>
+                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/apple6.png" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Food Service</h4>
+                            <p>Partner with different restaurants across the GTA to provide customers with various kinds of food such as Japanese, Chinese, Mexican, French and Thai cuisines.
+                            </p>
+                        </div>
                     </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">创意服务</h4>
-                        <p>1.创意服务；组织策划文化艺术交流活动<br/>2.会议及展览展示服务<br/>3.设计、制作、代理、发布国内广告(除网络广告发布)
-                        </p>
+                    <div class="media ">
+                        <div class="media-left media-top">
+                            <a href="#" class=''>
+                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/baterry10.png" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Delivery Service</h4>
+                            <p>Pick up customers from the airport and delivery food ordered by customers.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="media ">
+                        <div class="media-left media-top">
+                            <a href="#" class=''>
+                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/star.png" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Cleaning Service</h4>
+                            <p>High quality and competitive cleaning service for rental properties.</p>
+                        </div>
+                    </div>
+                    <div class="media ">
+                        <div class="media-left media-top">
+                            <a href="#" class=''>
+                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/page-3/juice.png" alt="">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Travel Tour Package</h4>
+                            <p>Explore potential tourist attractions in Canada, integrate food and accommodation into tour projects and create unique and realistic travel plans for customers.</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="skills hidden-xs">
-                <span class="subject-9">酒店</span>
-                <span class="subject-2">农副产品</span>
-                <span class="subject-3">日用品</span>
-                <span class="subject-4">餐饮</span>
-                <span class="subject-10">代理发布</span>
-                <span class="subject-5">会议展览</span>
-                <span class="subject-6">文化创意</span>
-                <span class="subject-7">艺术交流</span>
-                <span class="subject-8">广告设计</span>
-                <span class="subject-1">民宿</span>
+                <span class="subject-9 ch-skill">酒店</span>
+                <span class="subject-2 ch-skill">农副产品</span>
+                <span class="subject-3 ch-skill">日用品</span>
+                <span class="subject-4 ch-skill">餐饮</span>
+                <span class="subject-10 ch-skill">代理发布</span>
+                <span class="subject-5 ch-skill">会议展览</span>
+                <span class="subject-6 ch-skill">文化创意</span>
+                <span class="subject-7 ch-skill">艺术交流</span>
+                <span class="subject-8 ch-skill">广告设计</span>
+                <span class="subject-1 ch-skill">民宿</span>
+                <span class="subject-9 en-skill">Hotel</span>
+                <span class="subject-2 en-skill">Agricultural By-Product</span>
+                <span class="subject-3 en-skill">Daily Necessities</span>
+                <span class="subject-4 en-skill">Restaurant</span>
+                <span class="subject-10 en-skill">Agent Release</span>
+                <span class="subject-5 en-skill">Conference and Exhibition</span>
+                <span class="subject-6 en-skill">Cultural</span>
+                <span class="subject-7 en-skill">Art Communication</span>
+                <span class="subject-8 en-skill">Advertising Design</span>
+                <span class="subject-1 en-skill">B & B</span>
             </div>
         </div>
     </div>
@@ -312,7 +416,7 @@
         <div id="play">
             <div class="center">
                 <video class="playvideo" width="854" height="480" controls>
-                    您的浏览器不支持Video标签。
+                    Your browser does not support video tags. Please update the browser version or switch to another browser to play.
                 </video>
                 <div class="close" id="close"><img src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/guanbi.png" alt=""></div>
             </div>
@@ -320,7 +424,10 @@
     </div>
     <div class="section item-5">
         <div class="item5-background">
-            <div id="title">旗下 产品</div>
+            <div id="title">
+                <span class="ch-skill">旗下 产品</span>
+                <span class="en-skill">OUR PRODUCTS</span>
+            </div>
             <div id="stars"></div>
             <div id="stars2"></div>
             <div id="stars3"></div>
@@ -358,23 +465,27 @@
     </div>
     <div class="section item-6">
         <div class="center">
-            <h1>联系我们</h1>
+            <h1 class="ch-skill">联系我们</h1><h1 class="en-skill">CONTACT US</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-md-4 col-lg-4">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
                         <div class="word">
                             <p><i class="glyphicon glyphicon-fire" style="color: orange"></i> 四川十二客文化创意有限公司</p>
-                            <p><i class="glyphicon glyphicon-phone-alt" style="color: greenyellow"></i> (+86) 151-1262-7487</p>
-                            <p><i class="glyphicon glyphicon-home" style="color: skyblue"></i> 成都市武侯区聚龙路16号2栋10层53号</p>
+                            <p><i class="glyphicon glyphicon-fire" style="color: orange"></i> Sichuan Twelve Guest Culture Creative Co., Ltd. </p>
+                            <p><i class="glyphicon glyphicon-phone-alt" style="color: greenyellow"></i> China：(+86) <a class="tel" href="tel:15112627487">151-1262-7487</a></p>
+                            <p><i class="glyphicon glyphicon-phone-alt" style="color: greenyellow"></i> Canada：(+001) <a class="tel" href="tel:-">-</a></p>
+                            <p><i class="glyphicon glyphicon-home" style="color: skyblue"></i> China：成都市武侯区聚龙路16号2栋10层53号</p>
+                            <p><i class="glyphicon glyphicon-home" style="color: skyblue"></i> Canada：-</p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-5 col-lg-5">
                         <div class="word">
                             <p><img class="logo" src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/img/logo.png" /></p>
                             <p><i class="glyphicon glyphicon-globe" style="color: #fff"></i>花花小馆：成都市武侯区金雁路404号皇家别墅兰苑C4</p>
+                            <p><i class="glyphicon glyphicon-globe" style="color: #fff"></i>Huahua Hotel：-</p>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-3 col-lg-3"></div>
+                    <div class="col-sm-6 col-md-1 col-lg-1"></div>
                 </div>
             </div>
         </div>
@@ -396,8 +507,9 @@
     <script src='https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/special_js/react-dom.min.js'></script>
     <script src='https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/special_js/index.min.js'></script>
     <script src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/special_js/script.js"></script>
+    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
     <script>
-    const width = $('body').width();
+    var width = $('body').width();
     if(width < 768){
         $('.center').width(width);
         $('.center').height(width * 9 / 16);
@@ -410,7 +522,29 @@
         })
     }
     </script>
-    <script type="text/javascript">		
+    <script type="text/javascript">
+        var togSta = false;
+        function renderLang(str){
+            $('.' + str + '-skill').show();
+            str === 'ch' ? $('.en-skill').hide() : $('.ch-skill').hide();
+            $('.name').html(str === 'ch' ? '中文' : 'EN');
+            document.title = str === 'ch' ? '十二客 | 创享文化未来，传播价值精彩' : 'Twelve Guest | Create and enjoy the cultural future and spread wonderful values'
+        }
+        function changeLang(str){
+            renderLang(str);
+            localStorage.setItem('lang', str);
+            toggle();
+        }
+        function toggle(){
+            $('.arrow').css('transform', togSta ? 'rotate(0deg)' : 'rotate(180deg)');
+            $('.check-lang').css('transform', togSta ? 'scale(0)' : 'scale(1)')
+            togSta = !togSta;
+        }
+        function inChina(temp){
+            var re=/[^\u4E00-\u9FA5]/;
+            if (re.test(temp)) return false;
+            return true;
+        }
         $(document).ready(function(){
             $('#play').hide();
             setTimeout(function(){
@@ -434,8 +568,8 @@
             slider.control('thumblist' , {autohide:false ,dir:'v',arrows:false});
 
             $('.play_btn').click(function(){
-                const src = $(this).data('src');
-                const sourceDom = $(`<source src=${src} />`)
+                var src = $(this).data('src');
+                var sourceDom = $(`<source src=${src} />`)
                 $('#play').fadeIn(300);
                 $('.playvideo').removeAttr('src');
                 $('.playvideo').append(sourceDom);
@@ -447,6 +581,11 @@
                 $('#play').fadeOut(300);
                 $('.play_btn').attr('data-src', 'https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/videos/videos.mp4');
             })
+            var str = localStorage.getItem('lang');
+            var ads = returnCitySN["cname"];
+            var isCh = inChina(ads);
+            str = str || (isCh ? 'ch' : ads.toLowerCase().includes('china') ? 'ch' : 'en');
+            renderLang(str);
         });
     </script>
 

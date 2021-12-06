@@ -40,9 +40,10 @@ class CitiesSlider extends React.Component {
 
   render() {
     const { activeSlide, prevSlide, sliderReady } = this.state;
+    let lang = localStorage.getItem('lang') || 'en';
     return /*#__PURE__*/(
       React.createElement("div", { className: classNames('slider', { 's--ready': sliderReady }) }, /*#__PURE__*/
-      React.createElement("p", { className: "slider__top-heading" }, "花花小馆"), /*#__PURE__*/
+      React.createElement("p", { className: "slider__top-heading" }, lang === 'ch' ? "花花小馆" : 'huahua hotel'), /*#__PURE__*/
       React.createElement("div", { className: "play_btn" }), /*#__PURE__*/
       React.createElement("div", { className: "slider__slides" },
       this.props.slides.map((slide, index) => /*#__PURE__*/

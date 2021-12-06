@@ -71,7 +71,9 @@ $(function () {
 
         $('item-4').css('background', 'rgba(255, 255, 255, .1)');
         //侧边导航事件
-        var Tooltips = ['介绍', '公司概况', '主营业务', '小馆特色', '产品展示', '联系方式'];
+        var lang = localStorage.getItem('lang');
+        lang = lang || 'en';
+        var Tooltips = lang === 'ch' ? ['介绍', '公司概况', '主营业务', '小馆特色', '产品展示', '联系方式'] : ['Introduction', 'Company profile', 'Main business', 'Hotel features', 'Product display', 'Contact us'];
         $("#fp-nav ul li").each(function (index) {
           this.dataset['toggle'] = 'tooltip';
           this.dataset['placement'] = 'left';
@@ -126,7 +128,7 @@ $(function () {
             $('.item-1 .corner').hide();
             $('.resume-hide').hide();
             $('.navbar').removeClass('black');
-
+            $('.navbar').removeClass('blue');
             break;
 
           case 2:
@@ -139,16 +141,27 @@ $(function () {
             } else {
               $('.item-2 .container').hide();
             }
+            $('.navbar').removeClass('black');
+            $('.navbar').removeClass('blue');
             break;
 
           case 3:
             $('.item-3 .container').hide();
+            $('.navbar').removeClass('black');
             $('.navbar').removeClass('blue');
             break;
 
           case 4:
             $('.item-4 .container').hide();
+            $('.navbar').removeClass('black');
+            $('.navbar').removeClass('blue');
             break;
+          case 5:
+            $('.navbar').removeClass('black');
+            $('.navbar').removeClass('blue');
+          case 6:
+            $('.navbar').removeClass('black');
+            $('.navbar').removeClass('blue');
         }
       },
 
@@ -166,19 +179,25 @@ $(function () {
             $('.item-2 .container').show();
             break;
           case 'page3':
+            $('.navbar').removeClass('black');
             $('.navbar').addClass('blue');
             $('.item-3 .container').show();
-
             break;
           case 'page4':
             $('.item-4 .container').hide();
+            $('.navbar').removeClass('blue');
+            $('.navbar').addClass('black');
             break;
 
           case 'page5':
             $('.pure').show();
+            $('.navbar').removeClass('black');
+            $('.navbar').addClass('blue');
             break;
 
           case 'page6':
+            $('.navbar').removeClass('blue');
+            $('.navbar').addClass('black');
             setTimeout(function () {
               $('.pure').show();
               $('.item-6 .top').animate({'height': '20%'},400);
@@ -201,8 +220,13 @@ $(function () {
       }
     }
   )
-  $.fn.fullpage.setMouseWheelScrolling(false);
-  $.fn.fullpage.setAllowScrolling(false);
+  if(document.body.offsetWidth < 768){
+    $.fn.fullpage.setMouseWheelScrolling(true);
+    $.fn.fullpage.setAllowScrolling(true);
+  } else {
+    $.fn.fullpage.setMouseWheelScrolling(false);
+    $.fn.fullpage.setAllowScrolling(false);
+  }
 })
 
 

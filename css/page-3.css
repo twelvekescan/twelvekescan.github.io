@@ -96,13 +96,13 @@
 .item-3 .skill-introduce {
     text-align: left;
     position: absolute;
-    top: 15%;
+    top: 10%;
     left: 5%;
     color: #000000;
 }
 @media screen and (max-width: 767px) {
     .item-3 .skill-introduce {
-        top: 12%;
+        top: 10%;
     }
     .organizational{
         max-width: 99%;
