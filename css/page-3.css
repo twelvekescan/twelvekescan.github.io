@@ -77,16 +77,16 @@
     top: 80%;
     transform: scale(.5);
 }
-.subject-1{font-size: 48px; margin-left: -400px; margin-top: -50px;color: #4A00E0;}
-.subject-2{font-size: 18px; margin-left: -250px; margin-top: 40px;color: pink;}
-.subject-3{font-size: 14px; margin-left: -270px; margin-top: 10px;color: red;}
+.subject-1{font-size: 48px; margin-left: -400px; margin-top: -50px;color: #43de20;}
+.subject-2{font-size: 18px; margin-left: -250px; margin-top: 40px;color: #de0e33;}
+.subject-3{font-size: 14px; margin-left: -270px; margin-top: 10px;color: #4d0f0f;}
 .subject-4{font-size: 20px; margin-left: -200px; margin-top: -30px;color: orange;}
-.subject-5{font-size: 20px; margin-left: -120px; margin-top: 50px;color: green;}
-.subject-6{font-size: 30px; margin-left: 81px; margin-top: -35px;color: blue;}
-.subject-7{font-size: 16px; margin-left: 0px; margin-top: -40px;color: purple;}
-.subject-8{font-size: 20px; margin-left: 10px; margin-top: 10px;color: magenta;}
-.subject-9{font-size: 18px; margin-left: 2px; margin-top: 41px;color: #f50;}
-.subject-10{font-size: 18px; margin-left: -150px; margin-top: 10px;color: gold;}
+.subject-5{font-size: 20px; margin-left: -120px; margin-top: 50px;color: #1b2bd7;}
+.subject-6{font-size: 30px; margin-left: 81px; margin-top: -35px;color: #8585b2;}
+.subject-7{font-size: 16px; margin-left: 0px; margin-top: -40px;color: #d09a2e;}
+.subject-8{font-size: 20px; margin-left: 10px; margin-top: 10px;color: #c41630;}
+.subject-9{font-size: 18px; margin-left: 2px; margin-top: 41px;color: #e71604;}
+.subject-10{font-size: 18px; margin-left: -150px; margin-top: 10px;color: #d2cfc8;}
 
 .item-3  .skills span {
     animation: bounceIn 2s linear forwards;

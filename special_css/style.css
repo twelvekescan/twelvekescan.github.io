@@ -363,7 +363,7 @@ body {
   background: linear-gradient(to right, rgba(0, 162, 255, 0.89), rgba(0, 255, 106, 0.93));
 }
 .play_btn::before{
-  content: '视频介绍';
+  content: 'Video introduction';
   text-align: center;
   line-height: 30px;
 }
