@@ -97,7 +97,7 @@
     z-index: -1;
     width: 100%;
     height: 100%;
-    url: 'https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/bg.jpg'
+    background-image: url(https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/bg.jpg)
 }
 
 @keyframes move {
