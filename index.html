@@ -1,605 +1,261 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
-    <title>十二客 | 创享文化未来，传播价值精彩</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>Twelve Guest Home|Create and enjoy the cultural future and spread wonderful values</title>
     <meta name="keywords" content="twelve guest home,hotel,culture,travel" />
-	<meta name="description" content="Twelve Guest Home is registered in Canada as federal incorporation. It is the wholly-owned subsidiary of Sichuan Twelve Guest Culture Creative Co., Ltd. in China. Twelve Guest Home will rely on the investment made by Sichuan Twelve Guest Culture Creative Co., Ltd. to initiate operations without loans from financial institutions." />
-	<meta name="description" content="Twelve Guest Home will mainly provide accommodation services like Airbnb, but with the more expanded area. The company will approach individual landlords and property management companies to rent their properties to local residents and foreign travellers. " />
-	<meta name="keywords" content="十二客,shierke,twelveke,文化活动,创意,四川,文创,商务服务,艺术交流,会议展览,设计,制作,代理,发布广告,酒店,民宿,商务,销售酒店用品,农产品" />
-    <meta name="description" content="四川十二客文化创意有限公司，诚接商务服务、创意服务、组织策划文化艺术交流活动、会议及展览展示服务，设计、制作、代理、发布国内广告(除网络广告发布)，市场营销策划，酒店管理；住宿；餐饮管理；民宿服务；销售：酒店用品、日用品、农副产品、预包装食品及散装食品。" />
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/favicon.ico">
-    <!--lib css-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/lib/bootstrap/css/bootstrap.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/css/jquery.fullPage-1.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/css/animate-1.css">
-    <!--  page4 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/special_css/style-1.css">
-    <!--  page5 -->
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/css/masterslider-1.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/css/ms-showcase2-1.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/css/masterslider.main-1.css' type='text/css' media='all' />
-    <!--personal css-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/css/index-3.css"/>
-    <style>
-        .cover-loading{
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    z-index: 9999;
-    background: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.cover-loading>img{
-    filter: invert(100%);
-    animation: scaleImg 5s ease-in-out infinite;
-}
-@keyframes scaleImg {
-    0% {
-        transform: scale(1);
-    }
-    25% {
-        transform: scale(1.1);
-    }
-    50% {
-        transform: scale(1);
-    }
-    75% {
-        transform: scale(1.1);
-    }
-}
-.load-render{
-    position: relative;
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
-}
-.load-render>.loader {
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    margin-left: 10%;
-    transform: translate3d(-50%, -50%, 0);
-}
-.dot-ci {
-    width: 24px;
-    height: 24px;
-    background: #3ac;
-    border-radius: 100%;
-    display: inline-block;
-    animation: slideDot 1s infinite;
-}
-.dot-ci:nth-child(1) {
-    animation-delay: 0.1s;
-    background: #32aacc;
-}
-.dot-ci:nth-child(2) {
-    animation-delay: 0.2s;
-    background: #64aacc;
-}
-.dot-ci:nth-child(3) {
-    animation-delay: 0.3s;
-    background: #96aacc;
-}
-.dot-ci:nth-child(4) {
-    animation-delay: 0.4s;
-    background: #c8aacc;
-}
-.dot-ci:nth-child(5) {
-    animation-delay: 0.5s;
-    background: #faaacc;
-}
-@keyframes slideDot {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        opacity: 0.3;
-        transform: scale(2);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-    </style>
+    <meta name="description"
+        content="Twelve Guest Home is registered in Canada as federal incorporation. It is the wholly-owned subsidiary of Sichuan Twelve Guest Culture Creative Co., Ltd. in China. Twelve Guest Home will rely on the investment made by Sichuan Twelve Guest Culture Creative Co., Ltd. to initiate operations without loans from financial institutions." />
+    <meta name="description"
+        content="Twelve Guest Home will mainly provide accommodation services like Airbnb, but with the more expanded area. The company will approach individual landlords and property management companies to rent their properties to local residents and foreign travellers. " />
+    <link rel="shortcut icon"
+        href="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/favicon.ico">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link href="css/aos.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body style="position: relative;">
-    <div class="cover-loading">
-<!--        <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/img/logo.png" alt="">-->
-        <div class="load-render">
-            <div class="loader">
-                <div class="dot-ci"></div>
-                <div class="dot-ci"></div>
-                <div class="dot-ci"></div>
-                <div class="dot-ci"></div>
-                <div class="dot-ci"></div>
-            </div>
-        </div>
-    </div>
-<!--导航栏-->
-<nav class="navbar navbar-default resume">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand EngName" style="padding: 0 15px 15px;" data-menuanchor="page1" href="#page1">
-<!--                <img class="logo" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/img/logo.png" />-->
-            </a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right" id="menu">
-                <li data-menuanchor="page1" class="active">
-                    <a href="#page1">
-                        <span class="ch-skill">首页</span>
-                        <span class="en-skill">Home</span>
-                    </a>
-                </li>
-                <li data-menuanchor="page2">
-                    <a href="#page2">
-                        <span class="ch-skill">公司概况</span>
-                        <span class="en-skill">Company Profile</span>
-                    </a>
-                </li>
-                <li data-menuanchor="page3">
-                    <a href="#page3"><span class="ch-skill">主营业务</span><span class="en-skill">Main Business</span></a>
-                </li>
-                <li data-menuanchor="page4">
-                    <a href="#page4"><span class="ch-skill">小馆特色</span><span class="en-skill">Hotel Features</span></a>
-                </li>
-                <li data-menuanchor="page5">
-                    <a href="#page5"><span class="ch-skill">产品展示</span><span class="en-skill">Product Display</span></a>
-                </li>
-                <li data-menuanchor="page6">
-                    <a href="#page6"><span class="ch-skill">联系方式</span><span class="en-skill">Contact Us</span></a>
-                </li>
-                <!--<li class="language">
-                    <span class="checked"  onclick="toggle()"><span class="name">中文</span><i class="arrow"></i></span>
-                    <div class="check-lang">
-                        <span onclick="changeLang('ch')">简体中文</span>
-                        <span onclick="changeLang('en')">English</span>
-                    </div>
-                </li>-->
-            </ul>
-        </div>
-    </div>
-</nav>
-<div class="guns sky"></div>
-<div class="pure">
 
-</div>
-<div id="resume">
-    <div class="section item-1">
-        <div class="background">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="row word">
-            <span class="resume-hide">
-<!--                <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/img/logo.png" />-->
-            </span>
-            <p class="motto resume-hide hinge-sty" style="position: relative">
-                <span class="ch-skill">创享文化未来，传播价值精彩</span>
-                <span class="en-skill">Create and enjoy the cultural future <br/>and spread wonderful values</span>
-            </p>
-            <a href="#" class="next-page ">
-                <span class="glyphicon glyphicon-chevron-down"></span>
-            </a>
-        </div>
-
-        <div class="corner1 corner">
-<!--            <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page_home/1.png" alt=""/>-->
-        </div>
-        <div class="corner2 corner">
-<!--            <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page_home/2.png" alt=""/>-->
-        </div>
-        <div class="corner3 corner">
-<!--            <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page_home/3.png" alt=""/>-->
-        </div>
-        <div class="corner4 corner">
-<!--            <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page_home/4.png" alt=""/>-->
-        </div>
-
-    </div>
-    <div class="section item-2">
-        <div class="item2-background"></div>
-        <div class="container">
-            <h1 class='hidden-xs hidden-sm page2-title ch-skill'>公司概况</h1>
-            <h1 class='hidden-xs hidden-sm page2-title en-skill'>COMPANY PROFILE</h1>
-            <div class="row">
-                <div class=" icon-infomation col-xs-12 col-sm-6 col-md-6">
-                    <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-2/glass.png" alt="">
-                    <h4 class="ch-skill">基本信息</h4>
-                    <h4 class="en-skill">Essential Information</h4>
-                    <p class="ch-skill">
-                        四川十二客文化创意有限公司作为一家专业商业服务机构，集文化艺术交流活动创意策划、会议及展览展示设计、市场营销策划、民宿短租服务、酒店管理等多领域综合服务于一体，致力于打造高端精品商务文化名片，提供新颖生动的活动形式，精准满足客户需求。自2019年7月成立以来，已策划承办多场文化交流活动、商务接待活动等，服务周到现场效果优良，为客户开拓商业新蓝图提供有力臂助。
-                    </p>
-                    <p class="en-skill">
-                        Twelve Guest Home is registered in Canada as federal incorporation. It is the wholly-owned subsidiary of Sichuan Twelve Guest Culture Creative Co., Ltd. in China. Twelve Guest Home will rely on the investment made by Sichuan Twelve Guest Culture Creative Co., Ltd. to initiate operations without loans from financial institutions.
-                    </p>
-                </div>
-                <div class=" icon-infomation col-xs-12 col-sm-6 col-md-6">
-                    <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-2/book.png" alt="">
-                    <h4 class="ch-skill">行业类型</h4>
-                    <h4 class="en-skill">Industry Type</h4>
-                    <p class="ch-skill">
-                        商务服务业，有限责任公司(自然人独资)
-                    </p>
-                    <p class="en-skill">
-                        Business service industry, limited liability company (sole proprietorship of natural person).
-<!--                        The initial investment amount will be CAD 50,000, and the parent company will continue to invest if needed-->
-                    </p>
+<body>
+    <main>
+        <section class="hero" id="hero">
+            <div class="heroText">
+                <h1 class="text-white mt-5 mb-lg-4" data-aos="zoom-in" data-aos-delay="800">Twelve Guest</h1>
+                <p class="text-secondary-white-color" data-aos="fade-up" data-aos-delay="1000">Create and enjoy the
+                    cultural<strong class="custom-underline">future</strong>and spread wonderful<strong
+                        class="custom-underline">values</strong></p>
+            </div>
+            <div class="videoWrapper"><video autoplay="" loop="" muted="" class="custom-video"
+                    poster="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/pure.jpg">
+                    <source src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/videos/videos.mp4"
+                        type="video/mp4">Your browser does not support the video tag.
+                </video></div>
+            <!--<div class="overlay"></div>-->
+        </section>
+        <nav class="navbar navbar-expand-lg bg-light shadow-lg">
+            <div class="container"><a class="navbar-brand" href="index.html"><img
+                        src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/img/logo.png"
+                        alt="">Twelve Guest</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item active"><a class="nav-link" href="#hero">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Profile</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#news">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class=" icon-infomation col-xs-12 col-sm-6 col-md-6">
-                    <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-2/tel.png" alt="">
-                    <h4 class="ch-skill">花花小馆地址</h4>
-                    <h4 class="en-skill">Hotel Address</h4>
-                    <p class="ch-skill">
-                        四川省成都市武侯区金雁路404号皇家别墅兰苑C4
-                    </p>
-                    <p class="en-skill">
-                        China：C4, Royal Villa Lanyuan, No. 404, Jinyan Road, Wuhou District, Chengdu, Sichuan</br>
-                        Canada：-
-                    </p>
-                </div>
-                <div class=" icon-infomation col-xs-12 col-sm-6 col-md-6">
-                    <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-2/hat.png" alt="">
-                    <h4 class="ch-skill">经营范围</h4>
-                    <h4 class="en-skill">Scope of Services</h4>
-                    <p class="ch-skill">创意服务；组织策划文化艺术交流活动；会议及展览展示服务，设计、制作、代理、发布国内广告(除网络广告发布)，市场营销策划，酒店管理；住宿；餐饮管理；民宿服务；销售：酒店用品、日用品、农副产品、预包装及散装食品。</p>
-                    <p class="en-skill">Twelve Guest Home will mainly provide accommodation services like Airbnb, but with the more expanded area. The company will approach individual landlords and property management companies to rent their properties to local residents and foreign travellers. </p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <div class="section item-3">
-        <div class="container">
-            <div class="img-3 hidden-xs">
-                <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/5(2).png" alt="">
-            </div>
-            <div class="bg-img hidden-xs hidden-sm">
-                <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/1(4).png" alt="">
-            </div>
-            <div class="bg-xs-img fly hidden-lg hidden-md">
-                <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/Chart.png" alt="">
-            </div>
-            <div class="skill-introduce">
-                <!--<div class="ch-skill">
-                    <div class="media">
-                        <div class="media-left media-top">
-                            <a href="#" class=''>
-                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/tv8.png" alt="">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">组织架构</h4>
-                            <p><img class="organizational" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/zuzhi.jpeg" alt=""></p>
-                        </div>
+        </nav>
+        <section class="section-padding pb-0" id="about">
+            <div class="container mb-5 pb-lg-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-3" data-aos="fade-up">Company Profile</h2>
                     </div>
-                    <div class="media ">
-                        <div class="media-left media-top">
-                            <a href="#" class=''>
-                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/apple6.png" alt="">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">酒店民宿服务</h4>
-                            <p>1.市场营销策划，酒店管理<br/>2.住宿；餐饮管理；民宿服务<br/>3.销售：酒店用品、日用品、农副产品、预包装食品及散装食品
-                            </p>
-    
-                        </div>
+                    <div class="col-lg-12 col-12 mt-3 mb-lg-5">
+                        <p class="me-4" data-aos="fade-up" data-aos-delay="300"><a rel="nofollow" href="#">Twelve Guest
+                                Home</a>is registered in Canada as federal incorporation.It is the wholly-owned
+                            subsidiary of Sichuan Twelve Guest Culture Creative Co.,Ltd.in China.<br><br>Business
+                            service industry,limited liability company.</p>
                     </div>
-                    <div class="media ">
-                        <div class="media-left media-top">
-                            <a href="#" class=''>
-                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/baterry10.png" alt="">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">创意服务</h4>
-                            <p>1.创意服务；组织策划文化艺术交流活动<br/>2.会议及展览展示服务<br/>3.设计、制作、代理、发布国内广告(除网络广告发布)
-                            </p>
-                        </div>
+                    <div class="col-12">
+                        <h2 class="mb-3" data-aos="fade-up">Scope of Services</h2>
                     </div>
-                </div>-->
-                <!-- English -->
-                <div class="en-skill">
-                    <div class="media en-title">
-                        <h2>Twelve Guest Home will provide the following services based on the needs of customers:</h2>
+                    <div class="col-lg-12 col-12 mt-3 mb-lg-5">
+                        <p class="me-4" data-aos="fade-up" data-aos-delay="300"><a rel="nofollow" href="#">Twelve Guest
+                                Home</a>will mainly provide accommodation services like Airbnb,but with the more
+                            expanded area.The company will approach individual landlords and property management
+                            companies to rent their properties to local residents and foreign travellers.</p>
                     </div>
-                    <div class="media ">
-                        <div class="media-left media-top">
-                            <a href="#" class=''>
-                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/tv8.png" alt="">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Decorating service</h4>
-                            <p>Add seasonal themes and styles to rental properties to increase their rents.
-                            </p>
-                        </div>
+                    <div class="col-12">
+                        <h2 class="mb-3" data-aos="fade-up">Office Address</h2>
                     </div>
-                    <div class="media ">
-                        <div class="media-left media-top">
-                            <a href="#" class=''>
-                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/apple6.png" alt="">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Food Service</h4>
-                            <p>Provide different kinds of food such as Japanese, Chinese, Mexican, French, and Thai cuisines to customers through partnerships with restaurants.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="media ">
-                        <div class="media-left media-top">
-                            <a href="#" class=''>
-                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/baterry10.png" alt="">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Delivery Service</h4>
-                            <p>Provide pick-up service from the airport and food delivery services to customers.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="media ">
-                        <div class="media-left media-top">
-                            <a href="#" class=''>
-                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/star.png" alt="">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Cleaning Service</h4>
-                            <p>Provide a high standard of cleaning service with competitive pricing for rental properties.</p>
-                        </div>
-                    </div>
-                    <div class="media ">
-                        <div class="media-left media-top">
-                            <a href="#" class=''>
-                                <img class="media-object" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-3/juice.png" alt="">
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            <h4 class="media-heading">Travel Tour Package</h4>
-                            <p>Develop unique and realistic travel plans for customers by exploring potential tourist attractions in Canada, integrating food and accommodation into tour projects.</p>
-                        </div>
+                    <div class="col-lg-12 col-12 mt-3 mb-lg-5">
+                        <p class="me-4" data-aos="fade-up" data-aos-delay="300">C4,Royal Villa Lanyuan,No.404,Jinyan
+                            Road,Wuhou District,Chengdu,Sichuan.</p>
                     </div>
                 </div>
             </div>
-
-            <div class="skills hidden-xs">
-                <!--<span class="subject-9 ch-skill">酒店</span>
-                <span class="subject-2 ch-skill">农副产品</span>
-                <span class="subject-3 ch-skill">日用品</span>
-                <span class="subject-4 ch-skill">餐饮</span>
-                <span class="subject-10 ch-skill">代理发布</span>
-                <span class="subject-5 ch-skill">会议展览</span>
-                <span class="subject-6 ch-skill">文化创意</span>
-                <span class="subject-7 ch-skill">艺术交流</span>
-                <span class="subject-8 ch-skill">广告设计</span>
-                <span class="subject-1 ch-skill">民宿</span>-->
-                <span class="subject-9 en-skill">Hotel</span>
-                <span class="subject-2 en-skill">Agricultural By-Product</span>
-                <span class="subject-3 en-skill">Daily Necessities</span>
-                <span class="subject-4 en-skill">Restaurant</span>
-                <span class="subject-10 en-skill">Agent Release</span>
-                <span class="subject-5 en-skill">Conference and Exhibition</span>
-                <span class="subject-6 en-skill">Cultural</span>
-                <span class="subject-7 en-skill">Art Communication</span>
-                <span class="subject-8 en-skill">Advertising Design</span>
-                <span class="subject-1 en-skill">B & B</span>
-            </div>
-        </div>
-    </div>
-    <div class="section item-4" id='item-4'>
-        <div id="app"></div>
-        <div id="play">
-            <div class="center">
-                <video class="playvideo" width="854" height="480" controls>
-                    Your browser does not support video tags. Please update the browser version or switch to another browser to play.
-                </video>
-                <div class="close" id="close"><img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/guanbi.png" alt=""></div>
-            </div>
-        </div>
-    </div>
-    <div class="section item-5">
-        <div class="item5-background">
-            <div id="title">
-                <span class="ch-skill">旗下 产品</span>
-                <span class="en-skill">OUR PRODUCTS</span>
-            </div>
-            <div id="stars"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div>
-        </div>
-            <div class="container" id='container-img'>
-                <div style="max-width:100%;margin:50px auto;">
-                    <div class="ms-showcase2-template ms-dir-v"> 
-                      <!-- masterslider -->
-                        <div class="master-slider ms-skin-default" id="masterslider">
-<!--                            <div class="ms-slide"><img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/一楼户外鱼池.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/一楼户外鱼池.png" alt="thumb" /> </div>-->
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/一楼餐厅.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/一楼餐厅.png" alt="thumb" /> </div>
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/三楼露台.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/三楼露台.png" alt="thumb" /> </div>
-<!--                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/夕颜1.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/夕颜1.png" alt="thumb" /> </div>-->
-<!--                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/夕颜2.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/夕颜2.png" alt="thumb" /> </div>-->
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/夕颜卫生间.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/夕颜卫生间.png" alt="thumb" /> </div>
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/客厅1.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/客厅1.png" alt="thumb" /> </div>
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/客厅2.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/客厅2.png" alt="thumb" /> </div>
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/寄春1.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/寄春1.png" alt="thumb" /> </div>
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/寄春2.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/寄春2.png" alt="thumb" /> </div>
-<!--                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/寄春卫生间.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/寄春卫生间.png" alt="thumb" /> </div>-->
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/操作间.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/操作间.png" alt="thumb" /> </div>
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/无忧1.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/无忧1.png" alt="thumb" /> </div>
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/无忧2.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/无忧2.png" alt="thumb" /> </div>
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/无忧盥洗区.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/无忧盥洗区.png" alt="thumb" /> </div>
-                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/甘棠1.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/甘棠1.png" alt="thumb" /> </div>
-<!--                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/甘棠2.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/甘棠2.png" alt="thumb" /> </div>-->
-<!--                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/甘棠卫生间.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/甘棠卫生间.png" alt="thumb" /> </div>-->
-<!--                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/鹿玲1.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/鹿玲1.png" alt="thumb" /> </div>-->
-<!--                            <div class="ms-slide"> <img src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/loading-2.gif" data-src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/鹿玲卫生间.png" alt=""/> <img class="ms-thumb" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/images/page-5/鹿玲卫生间.png" alt="thumb" /> </div>-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-2 col-12 p-0"><img
+                            src="https://cdn.jsdelivr.net/gh/twelvekes/twelvekes.github.io@latest/images/pure.jpg"
+                            class="img-fluid about-image" alt=""></div>
+                    <div class="col-lg-3 col-12 bg-dark">
+                        <div
+                            class="d-flex flex-column flex-wrap justify-content-center h-100 py-5 px-4 pt-lg-4 pb-lg-0">
+                            <h3 class="text-white mb-3" data-aos="fade-up">We insist on achieving better in the
+                                industry.</h3>
+                            <p class="text-secondary-white-color" data-aos="fade-up">Customer experience always comes
+                                first.</p>
+                            <div class="mt-3 custom-links"><a href="#news" class="text-white custom-link"
+                                    data-aos="zoom-in" data-aos-delay="100">View the Features</a><br><a href="#contact"
+                                    class="text-white custom-link" data-aos="zoom-in" data-aos-delay="300">Contact
+                                    Us</a></div>
                         </div>
-                      <!-- end of masterslider --> 
+                    </div>
+                    <div class="col-lg-7 col-12 p-0">
+                        <section id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner"></div><button class="carousel-control-prev" type="button"
+                                data-bs-target="#myCarousel" data-bs-slide="prev"><span
+                                    class="carousel-control-prev-icon" aria-hidden="true"></span><span
+                                    class="visually-hidden">Previous</span></button><button
+                                class="carousel-control-next" type="button" data-bs-target="#myCarousel"
+                                data-bs-slide="next"><span class="carousel-control-next-icon"
+                                    aria-hidden="true"></span><span class="visually-hidden">Next</span></button>
+                        </section>
                     </div>
                 </div>
-        </div>
-    </div>
-    <div class="section item-6">
-        <div class="center">
-<!--            <h1 class="ch-skill">联系我们</h1>-->
-            <h1 class="en-skill">CONTACT US</h1>
+            </div>
+        </section>
+        <section class="section-padding" id="portfolio">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                        <div class="word">
-<!--                            <p><i class="glyphicon glyphicon-fire" style="color: orange"></i> 四川十二客文化创意有限公司</p>-->
-<!--                            <p><i class="glyphicon glyphicon-fire" style="color: orange"></i> Sichuan Twelve Guest Culture Creative Co., Ltd. </p>-->
-<!--                            <p><i class="glyphicon glyphicon-phone-alt" style="color: greenyellow"></i> China：(+86) <a class="tel" href="tel:15112627487">151-1262-7487</a></p>-->
-                            <p><i class="glyphicon glyphicon-phone-alt" style="color: greenyellow"></i> Canada：(+001) <a class="tel" href="tel:-">-</a></p>
-<!--                            <p><i class="glyphicon glyphicon-home" style="color: skyblue"></i> China：成都市武侯区聚龙路16号2栋10层53号</p>-->
-                            <p><i class="glyphicon glyphicon-home" style="color: deeppink"></i> Canada：-</p>
+                    <div class="col-12">
+                        <h2 class="mb-5 text-center" data-aos="fade-up">Services</h2>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="portfolio-thumb mb-5" data-aos="fade-up"><a href="images/swipers/8.jpg"
+                                class="image-popup"><img src="images/swipers/8.jpg" class="img-fluid portfolio-image"
+                                    alt=""></a>
+                            <div class="portfolio-info">
+                                <h4 class="portfolio-title mb-0">Decorating Service</h4>
+                                <p class="text-danger">Decorate the renting properties with different styles and
+                                    seasonal themes to increase rental prices.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-thumb" data-aos="fade-up"><a href="images/swipers/4.jpg"
+                                class="image-popup"><img src="images/swipers/4.jpg" class="img-fluid portfolio-image"
+                                    alt=""></a>
+                            <div class="portfolio-info">
+                                <h4 class="portfolio-title mb-0">Delivery Service</h4>
+                                <p class="text-success">Pick up customers from the airport and delivery food ordered by
+                                    customers.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-5 col-lg-5">
-                        <div class="word">
-<!--                            <p><img class="logo" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/img/logo.png" /></p>-->
-<!--                            <p><i class="glyphicon glyphicon-globe" style="color: #fff"></i>花花小馆：成都市武侯区金雁路404号皇家别墅兰苑C4</p>-->
-<!--                            <p><i class="glyphicon glyphicon-globe" style="color: #fff"></i>Huahua Hotel：-</p>-->
+                    <div class="col-lg-6 col-12">
+                        <div class="portfolio-thumb mt-5 mt-lg-0 mb-5" data-aos="fade-up"><a
+                                href="images/swipers/12.jpg" class="image-popup"><img src="images/swipers/12.jpg"
+                                    class="img-fluid portfolio-image" alt=""></a>
+                            <div class="portfolio-info">
+                                <h4 class="portfolio-title mb-0">Food Service</h4>
+                                <p class="text-warning">Partner with different restaurants across the GTA to provide
+                                    customers with various kinds of food such as Japanese,Chinese,Mexican,French and
+                                    Thai cuisines.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-thumb" data-aos="fade-up"><a href="images/swipers/14.jpg"
+                                class="image-popup"><img src="images/swipers/14.jpg" class="img-fluid portfolio-image"
+                                    alt=""></a>
+                            <div class="portfolio-info">
+                                <h4 class="portfolio-title mb-0">Cleaning Service</h4>
+                                <p class="text-info">High quality and competitive cleaning service for rental
+                                    properties.</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-thumb mb-5" data-aos="fade-up"><a href="images/swipers/10.jpg"
+                                class="image-popup"><img src="images/swipers/10.jpg" class="img-fluid portfolio-image"
+                                    alt=""></a>
+                            <div class="portfolio-info">
+                                <h4 class="portfolio-title mb-0">Travel Tour Package</h4>
+                                <p class="text-danger">Explore potential tourist attractions in Canada,integrate food
+                                    and accommodation into tour projects and create unique and realistic travel plans
+                                    for customers.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-md-1 col-lg-1"></div>
                 </div>
             </div>
-        </div>
-        <div class="top"></div>
-        <div class="foot"></div>
-    </div>
-</div>
-    <script src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/lib/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/lib/jquery.fullPage.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/lib/jquery.easing.1.3.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/lib/jquery.isotope.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/js/handler.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/js/resumeEnter.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/js/modernizr-2.6.2.min.js"></script>
-    <script type='text/javascript' src='https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/js/masterslider.min.js'></script>
-    <!-- page4 -->
-    <script src='https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/special_js/react.min.js'></script>
-    <script src='https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/special_js/react-dom.min.js'></script>
-    <script src='https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/special_js/index.min.js'></script>
-    <script src="https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/special_js/script-1.js"></script>
-    <script src="https://pv.sohu.com/cityjson?ie=utf-8"></script>
-    <script>
-    var width = $('body').width();
-    if(width < 768){
-        $('.center').width(width);
-        $('.center').height(width * 9 / 16);
-        $('.playvideo').width(width);
-        $('.playvideo').height(width * 9 / 16);
-        $('#close').css({
-            right: '50%',
-            top: '-120px',
-            marginRight: '-15px'
-        })
-    }
-    </script>
-    <script type="text/javascript">
-        var togSta = false;
-        function renderLang(str){
-            $('.' + str + '-skill').show();
-            str === 'ch' ? $('.en-skill').hide() : $('.ch-skill').hide();
-            $('.name').html(str === 'ch' ? '中文' : 'EN');
-            document.title = str === 'ch' ? '十二客 | 创享文化未来，传播价值精彩' : 'Twelve Guest | Create and enjoy the cultural future and spread wonderful values'
-        }
-        function changeLang(str){
-            renderLang(str);
-            localStorage.setItem('lang', str);
-            toggle();
-        }
-        function toggle(){
-            $('.arrow').css('transform', togSta ? 'rotate(0deg)' : 'rotate(180deg)');
-            $('.check-lang').css('transform', togSta ? 'scale(0)' : 'scale(1)')
-            togSta = !togSta;
-        }
-        function inChina(temp){
-            var re=/[^\u4E00-\u9FA5]/;
-            if (re.test(temp)) return false;
-            return true;
-        }
-        $(document).ready(function(){
-            $('#play').hide();
-            setTimeout(function(){
-                $('.cover-loading').fadeOut('slow');
-            }, 2000)
-            $('.play_btn').attr('data-src', 'https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/videos/videos.mp4');
-            var slider = new MasterSlider();
-            slider.setup('masterslider' , {
-                width:document.body.offsetWidth < 767 ? 610 : 1000,
-                height:document.body.offsetWidth < 767 ? 800 : 1030,
-                space:5,
-                speed: 50,
-                fullwidth:true,
-                autoHeight:true,
-                view:'scale',
-                loop: true,
-                autoplay: true
-            });
-            slider.control('arrows');	
-            slider.control('scrollbar' , {dir:'h'});	
-            slider.control('thumblist' , {autohide:false ,dir:'v',arrows:false});
-
-            $('.play_btn').click(function(){
-                var src = $(this).data('src');
-                var sourceDom = $(`<source src=${src} />`)
-                $('#play').fadeIn(300);
-                $('.playvideo').removeAttr('src');
-                $('.playvideo').append(sourceDom);
-
-            })
-            $('#close').click(function(){
-                $('.playvideo').find("source").remove();
-                $('.playvideo').attr("src", '');
-                $('#play').fadeOut(300);
-                $('.play_btn').attr('data-src', 'https://cdn.jsdelivr.net/gh/twelvekescan/twelvekescan.github.io@latest/videos/videos.mp4');
-            })
-            var str = localStorage.getItem('lang');
-            var ads = returnCitySN["cname"];
-            var isCh = inChina(ads);
-            // str = str || (isCh ? 'ch' : ads.toLowerCase().includes('china') ? 'ch' : 'en');
-            str = 'en';
-            renderLang(str);
-        });
-    </script>
-
+        </section>
+        <section class="news section-padding" id="news">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="mb-5 text-center" data-aos="fade-up">Features</h2>
+                    </div>
+                    <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+                        <div class="news-thumb" data-aos="fade-up"><a
+                                class="news-image-hover news-image-hover-warning"><img src="images//swipers/26.jpg"
+                                    class="img-fluid large-news-image news-image" alt=""></a>
+                            <div class="news-category bg-warning text-white">Services</div>
+                            <div class="news-text-info">
+                                <h5 class="news-title"><a class="news-title-link">We will provide you with warm and
+                                        thoughtful high-quality service.</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
+                            <div class="news-top w-100"><a class="news-image-hover news-image-hover-primary"><img
+                                        src="images/news/environment.jpeg" class="img-fluid news-image" alt=""></a>
+                                <div class="news-category bg-primary text-white">Environment</div>
+                            </div>
+                            <div class="news-bottom w-100">
+                                <div class="news-text-info">
+                                    <h5 class="news-title"><a class="news-title-link">Live in harmony with nature,warm
+                                            and elegant.</a></h5>
+                                    <div class="d-flex flex-wrap"><span class="text-muted me-2"><i
+                                                class="bi-geo-alt-fill me-1 mb-2 mb-lg-0"></i>Cannada,</span><span
+                                            class="text-muted">Toronto</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news-thumb news-two-column d-flex flex-column flex-lg-row" data-aos="fade-up">
+                            <div class="news-top w-100" data-aos="fade-up"><a
+                                    class="news-image-hover news-image-hover-success"><img src="images/news/speedy.jpeg"
+                                        class="img-fluid news-image" alt=""></a>
+                                <div class="news-category bg-success text-white">Speedy</div>
+                            </div>
+                            <div class="news-bottom w-100">
+                                <div class="news-text-info">
+                                    <h5 class="news-title"><a class="news-title-link">Support online contact and
+                                            comprehensive business negotiation</a></h5><span class="text-muted"><a
+                                            href="#contact" style="text-decoration: underline;">contact
+                                            information</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="text-white"><i class="bi-geo-alt-fill me-2"></i>C4,Royal Villa Lanyuan,No.404,Jinyan
+                        Road,Wuhou District,Chengdu,Sichuan</h5><a href="mailto:info@company.com"
+                        class="custom-link mt-3"><i class="bi-mailbox2 me-2"></i>info@company.com</a><br><a
+                        href="tel:(+1)01010101" class="custom-link mt-3 mb-5"><i
+                            class="bi-telephone-inbound-fill me-2"></i>(+1)01010101</a>
+                </div>
+                <div class="col-12">
+                    <p class="copyright-text mb-0">Copyright©<span id="year"></span><a href="index.html">Twelve Guest
+                            Home</a>,All rights reserved.
+                </div>
+            </div>
+            </section>
+    </footer>
+    <!--JAVASCRIPT-->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.sticky.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/jquery.magnific-popup.min.js"></script>
+    <script src="./js/magnific-popup-options.js"></script>
+    <script src="./js/scrollspy.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <script src="./js/profile_swiper.js"></script>
+    <script>var year = document.getElementById('year'); var carousel = document.querySelector('.carousel-inner'); if (year) { year.innerHTML = new Date().getFullYear() } var str = ''; for (var i of swipers) { var item = `<div class="carousel-item ${i.id === 1 ? 'active' : ''}"><img src="${i.img}"class="img-fluid team-image"alt=""><div class="team-thumb"><h3 class="text-white mb-0">${i.title}</h3><p class="text-secondary-white-color mb-0">${i.desc}</p></div></div>`; str += item } carousel.innerHTML = str;</script>
 </body>
+
 </html>
